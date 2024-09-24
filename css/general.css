@@ -1,0 +1,195 @@
+body {
+    padding: 15px 0 0 100px;
+    font: normal 1em/1.25em "helvetica neue", "Helvetica", "Arial", "Sans-serif";
+    font-size: 15px;
+    background: #e7ffff;
+}
+
+.cajaProceso {
+    border: 1px solid #081616;
+    width: 620px;
+    height: 290px;
+    /* background: #78a9ca; */
+    background: rgba(200, 150, 100, 0.4);
+    color: #010000;
+    /* color: #fff; */
+    top: 25%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-40%, 10%);
+    box-sizing: border-box;
+    padding: 25px 30px;
+}
+
+.cajaFormularioMantenedores {
+    border: 1px solid #081616;
+    width: 620px;
+    height: 390px;
+    /* background: #76c3c2;
+    color: #fff; */
+    background: rgba(200, 150, 100, 0.4);
+    color: #010000;
+    top: 25%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-40%, 10%);
+    box-sizing: border-box;
+    padding: 8px 18px;
+}
+
+.cajaProcesoMenu {
+    border: 1px solid #081616;
+    width: 620px;
+    height: 390px;
+    /* background: #78a9ca;
+    color: #fff; */
+    background: rgba(200, 150, 100, 0.4);
+    color: #010000;
+    top: 25%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-40%, 10%);
+    box-sizing: border-box;
+    padding: 8px 18px;
+}
+
+.cajaProcesoMenuGrande {
+    border: 1px solid #081616;
+    width: 620px;
+    height: 490px;
+    /* background: #78a9ca;
+    color: #fff; */
+    background: rgba(200, 150, 100, 0.4);
+    color: #010000;
+    top: 25%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-40%, 10%);
+    box-sizing: border-box;
+    padding: 8px 18px;
+}
+
+.cajaProcesoMenuPoliconsultante {
+    border: 1px solid #081616;
+    width: 620px;
+    height: 360px;
+    /* background: #78a9ca;
+    color: #fff; */
+    background: rgba(200, 150, 100, 0.4);
+    color: #010000;
+    top: 25%;
+    left: 45%;
+    position: absolute;
+    transform: translate(-40%, 10%);
+    box-sizing: border-box;
+    padding: 6px 18px;
+}
+
+.cargaH2 {
+    margin: 0;
+    color: black;
+    padding: 10px 0 40px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.pMensajes {
+    margin: 0;
+    color: rgb(39, 55, 88);
+    padding: 0 0 8px;
+    text-align: left;
+    font-size: 17px;
+}
+
+.menuProcesoH6 {
+    margin: -5px;
+    color: rgb(36, 50, 95);
+    padding: 0 0 10px;
+    /*text-align: center;*/
+    font-size: 15px;
+}
+
+#botonAceptarProcesoMenu {
+    position: relative;
+    top: 40px;
+    border: none;
+    outline: none;
+    height: 40px;
+    bottom: 100%;
+    width: 100%;
+    box-shadow: 5px 5px 6px #074747;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+#botonAceptarProcesoMenuPoli {
+    position: relative;
+    top: 20px;
+    border: none;
+    outline: none;
+    height: 40px;
+    bottom: 100%;
+    width: 100%;
+    box-shadow: 5px 5px 6px #074747;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.btnSubir {
+    background: #7bca78;
+}
+
+.btnCalendario {
+    background: #92c0df;
+}
+
+.botonAceptarCarga {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    background: #0a212b;
+    color: rgb(58, 102, 184);
+    font-size: 18px;
+    box-shadow: 5px 5px 6px #074747;
+    border-radius: 20px;
+}
+
+.botonAceptarCarga:hover {
+    cursor: pointer;
+    background: #658ca3;
+    color: #000;
+}
+
+h1 {
+    text-align: center;
+    color: #343871;
+}
+
+.negro {
+    text-align: center;
+    font-weight: bold;
+    font-size: 6em;
+}
+
+.alinear-boton {
+    margin-left: 80px;
+}
+
+div.contenido {
+    margin: auto;
+    border: 1px solid #356e6e;
+    width: 50%;
+    text-align: left;
+    padding: 40px;
+    background: #7dc1e0
+}
+
+input[type=submit] {
+    background: #6ca16e;
+    width: 100%;
+    padding: 5px 15px;
+    background: #ccc;
+    cursor: pointer;
+    font-size: 16px;
+}

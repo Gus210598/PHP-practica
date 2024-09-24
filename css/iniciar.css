@@ -1,0 +1,56 @@
+.cajaInicio {
+    border: 1px solid #112b2b;
+    width: 320px;
+    height: 440px;
+    background: #6ca16e;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 10%);
+    box-sizing: border-box;
+    padding: 80px 30px;
+}
+
+.cajaTitulo {
+    margin: 10px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.etiquetaInicio {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.inicioEntrada {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.botonAceptar {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    background: #1680b1;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.botonAceptar:hover {
+    cursor: pointer;
+    background: #658ca3;
+    color: #000;
+}
